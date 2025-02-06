@@ -263,12 +263,13 @@ li:hover ~ li p {
     right: 0;
     top: 0;
   }
+}
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
-}
+
 
 /* navbar 2 end */
 
