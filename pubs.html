@@ -18,6 +18,16 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+  <script>
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -40,6 +50,7 @@ function scrollToTop() {
 <a  class=""  href="contact.php"><span>CONTACT</span></a>
 </div>
 -->
+  <!--
 <div class="footresp">
   <ul>
 
@@ -52,9 +63,21 @@ function scrollToTop() {
   <input type="image" class="returnTop" onclick="scrollToTop()" value= "scroll" src="up.png" />
 
 </div>
+-->
+<div class="topnav" id="myTopnav">
 
-</body>
-</html>
+  <a  class="" href="home.html">HOME</a>
+    <a class="" href="people.html">PEOPLE</a>
+    <a class="" href="pubs.html">PUBLICATIONS</a>
+    <a class="" href="covers.html">COVERS</a>
+    <a class="" href="collabs.html">COLLABORATIONS</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+
+</div>
+  
 <!--
 <div class="gosearch"> <i class="fa fa-search"></i>
   <a href="pubsearch.php">Search through our publications</></a>
