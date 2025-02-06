@@ -226,7 +226,7 @@ li:hover ~ li p {
 */
 /* cheat navbar end */
 
-/* cheat navbar */
+/* cheat navbar 2 */
 
 .topnav {
   overflow: hidden;
@@ -241,7 +241,7 @@ li:hover ~ li p {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 3%;
+    margin-left: 5%;
 }
 
 .topnav a:hover {
@@ -279,7 +279,7 @@ li:hover ~ li p {
     text-align: left;
   }
 }
-/* navbar end */
+/* navbar 2 end */
 
 
 .headgif {
