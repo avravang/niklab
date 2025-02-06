@@ -150,6 +150,7 @@ body, html {
 /*  cheat  people end */
 
 /* cheat navbar */
+/*
 ul {
   display: inline-grid;
   grid-auto-flow: row;
@@ -188,6 +189,7 @@ li:hover ~ li p {
   /*animation: wave-animation 0.3s infinite; */
 	color: red;
 }
+/*
 .bottom {
   width: 100%;
 	height: 100px;
@@ -246,7 +248,7 @@ li:hover ~ li p {
 }
 
 .topnav a:hover {
-  background-color: red;
+  background-color: transparent;
   color: black;
 }
 
