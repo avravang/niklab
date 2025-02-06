@@ -163,6 +163,8 @@ ul {
   ul {
     grid-auto-flow: column;
   }
+  a {font-size: 18px; }
+  .footresp { height: 20vh;}
 }
 
 a {
@@ -514,53 +516,7 @@ padding-top: 20px;
 	font-size:22px!important;
 	color:#62818f;
 	}
-#video {
-	width:98%; max-width:1200px;
-	margin-left:auto;
-	margin-right:auto;
-	height:70vh;
-	padding-top:60px;
-	overflow:hidden;
-	white-space:normal;
-	padding-bottom:70px;
-	}
-#photo {
-	height:70vh !important;
-	width:98%; max-width:1200px;
-	margin-left:auto;
-	margin-right:auto;
-	overflow:hidden;
-	white-space:normal;
-	padding-top:60px;
 
-	}
-#myPhotos { width:90% !important; float:left; clear:none; display:block; }
-.phototitle {
-	text-align:left;
-	line-height:40px;
-	vertical-align:middle;
-	font-weight:500;
-	font-size:22px!important;
-	color:#62818f;
-	}
-.contactform {
-	height:auto;
-	width:98%; max-width:1200px;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top:60px;
-	}
-.contactfields {
-	width:80%;
-	min-height:35px;
-	border: 1px solid #DEDEDE !important;
-  	outline: 0;
-  	/*background: transparent;*/
-	margin-left:5%;
-	border-radius:0;
-	font-size:17px;
-}
-#resources { }
 .contactfields:hover {border-bottom: 1px solid #666; background-color:#F9F9F9;}
 .contactfields:active {border-bottom: 1px solid #666; background-color:#F9F9F9;}
 .contactTitle { text-align:left; line-height:40px; vertical-align:middle;
