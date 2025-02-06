@@ -235,8 +235,8 @@ li:hover ~ li p {
 }
 
 .topnav a:hover {
-  background-color: red;
-  color: black;
+  background-color: transparent;
+  color: red;
 }
 
 .topnav a.active {
