@@ -163,8 +163,8 @@ ul {
   ul {
     grid-auto-flow: column;
   }
-  a {font-size: 18px; }
-  .footresp { height: 18vh;}
+  .tablink a {font-size: 18px!important; }
+  .footresp { height: 20vh!important;}
 }
 
 a {
@@ -203,7 +203,7 @@ li:hover ~ li p {
 .gosearch { width: 100%; height: auto; text-align: left; font-size: 20px; padding-top: 20px; padding-bottom: 20px; }
 .footresp {
   display: flex;
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   background-color: #002a38;
   line-height: 1.3;
